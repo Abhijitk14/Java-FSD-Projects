@@ -3,7 +3,7 @@ spring:
    name: Expense_Management
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/wipro_Capstone
+    url: jdbc:mysql://localhost:3307/Capstone
     username: root
     password: root
   jpa:
