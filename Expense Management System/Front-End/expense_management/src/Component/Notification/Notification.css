@@ -1,0 +1,33 @@
+/* Notification.css */
+
+/* Table styling */
+.notification-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.notification-table th, .notification-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.notification-table th {
+    background-color: #f4f4f4;
+}
+
+/* Button styling */
+.status-button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.status-button.unread {
+    background-color: red;
+}
+
+.status-button.read {
+    background-color: green;
+}

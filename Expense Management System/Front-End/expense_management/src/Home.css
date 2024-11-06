@@ -1,0 +1,48 @@
+/* Container styling */
+.home-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Full-screen background image styling */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; /* Ensure the image covers the entire area */
+    /* z-index: -1; Put the image behind the content */ 
+}
+
+/* Centered content with buttons at the bottom */
+.main-content {
+    position: absolute;
+    bottom: 20px; /* Adjust to your preference for spacing from the bottom */
+    display: flex;
+    flex-direction: row; /* Align buttons in a row */
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Primary button style */
+.btn-primary {
+    background-color: #007bff; /* Example color */
+}
+
+/* Secondary button style */
+.btn-secondary {
+    background-color: #6c757d; /* Example color */
+}

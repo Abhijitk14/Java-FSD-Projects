@@ -1,0 +1,98 @@
+/* Background Gradient for the whole body */
+body {
+    background: linear-gradient(to right, #C6EA8D, #FE90AF);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; /* Ensures full height */
+}
+
+/* Container for the Register form */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Gradient for the Register form container */
+.main {
+    background: linear-gradient(135deg, #ffffff, #f2f2f2); /* Soft gradient for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    width: 400px;
+}
+
+/* Heading Styling */
+h2 {
+    text-align: center;
+    color: #282c34;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.formGroup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.button {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #3a3f47;
+}
+
+/* Link Styling */
+.link {
+    color: #61dafb;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
