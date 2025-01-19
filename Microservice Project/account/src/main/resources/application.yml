@@ -1,0 +1,48 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: account
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/wipro
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+info:
+ app:
+  name: Account
+  description: "Accounts related microservices in Wipro Bank Network"
+  version: 1.0.1
+ LangUse:
+  front-end: React js
+  back-end: java Spring boot
+
+account:
+ message: "Welcome to Wipro Bank accounts related APIs"
+ contactDetails:
+  name: "Abhijit Khaire - Developer"
+  email: abhi@gmail.com
+ onCallSupport:
+  - (40) 238-41700
+  - (40) 238-41701
